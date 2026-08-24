@@ -1,0 +1,22 @@
+name: asazu_studio
+publish_to: 'none'
+description: ASAZU STUDIO Phase 13 - Flutter UI integration
+version: 0.14.1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.10.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  file_picker: ^8.0.0
+  video_player: ^2.9.1
+  path_provider: ^2.1.6
+  ffmpeg_kit_flutter_new: ^4.6.2
+
+flutter:
+  uses-material-design: true
+
+dev_dependencies:
+  test: ^1.25.0
