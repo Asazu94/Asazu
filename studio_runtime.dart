@@ -1,9 +1,10 @@
 import 'dart:convert';
 import 'dart:io';
-import 'import_export.dart';
 
+import 'import_export.dart';
 import 'final_hardening.dart';
 import 'one_click_ai_ad.dart';
+import 'render_engine.dart';
 import 'scene_builder.dart';
 
 /// Phase 12: production runtime integration layer.
