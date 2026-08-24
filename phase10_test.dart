@@ -5,6 +5,7 @@ import '../lib/ai_ad_brain.dart';
 import '../lib/one_click_ai_ad.dart';
 import '../lib/render_engine.dart';
 import '../lib/scene_builder.dart';
+import '../lib/voice.dart';
 
 class FakeTts implements TtsProvider {
   int calls = 0;
